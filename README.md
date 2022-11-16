@@ -11,7 +11,7 @@ This app is to check if the phone number is valid
 
 The app is developed by following process
 
-1. Design front-end structure
+1. Design interface structure
 
 - title
 - input line
