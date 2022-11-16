@@ -3,9 +3,9 @@ This app is to check if the phone number is valid
 
 
 ## Document structure
-index.html - the main page
-style.css - the style file
-phoneCheck.js - a function to check if the number is valid
+- index.html - the main page
+- style.css - the style file
+- phoneCheck.js - a function to check if the number is valid
 
 ## Develop process
 
