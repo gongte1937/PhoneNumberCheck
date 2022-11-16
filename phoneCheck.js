@@ -1,5 +1,6 @@
 const phoneNumber = document.getElementById('phone')
 
+// if input a value then implement the validation function
 phoneNumber.addEventListener("keyup", (e)=>{
     const value = phoneNumber.value
     if (value === "") {
@@ -25,7 +26,6 @@ phoneNumber.addEventListener("keyup", (e)=>{
       else if (value.charAt(1) === "6" || value.charAt(1) === "9") {
         text.innerText = "Not Valid";
         text.style.color = "#ff0000";
-        console.log("valid number ", value);
         // statisfy all restriction then valid
       } else {
         text.innerText = "Valid Phone Number";
