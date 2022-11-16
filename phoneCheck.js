@@ -28,7 +28,7 @@ phoneNumber.addEventListener("keyup", (e)=>{
         console.log("valid number ", value);
         // statisfy all restriction then valid
       } else {
-        text.innerText = "Value is Valid";
+        text.innerText = "Valid Phone Number";
         text.style.color = "green";
       }
 })
